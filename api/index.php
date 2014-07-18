@@ -155,7 +155,7 @@ function getConnection2() {
 function getConnection() {
 	$dbhost="basil.arvixe.com";
 	$dbuser="restuser";
-	$dbpass="lskostas13";
+	$dbpass="youknowthepass";
 	$dbname="rest";
 	$dbh = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);	
 	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
